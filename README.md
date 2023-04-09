@@ -22,4 +22,8 @@ Steps to install and run this project.<br>
 You can type the text inside the text input to search from the list of elements. There are buttons which can be used to sort the elements according to the criteria.
 
 ## Site Images
+###Desktop View
+![](https://github.com/gauravd-123/1clickcapital_project/blob/main/Desktop.png)
+
+###Mobile View
 ![]()
