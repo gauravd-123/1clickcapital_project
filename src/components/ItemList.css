@@ -1,0 +1,58 @@
+body {
+  display: flex;
+}
+
+h1 {
+  padding: 2rem;
+  background: linear-gradient(to right, #efdc34, #f0f03e, #d69718, #ff7300);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.animationAdd {
+  margin: 0 2rem;
+}
+
+.container {
+  margin: 20px 0.5rem;
+  background: #fff;
+
+  margin: auto 2rem auto 2rem;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+}
+.container:hover .input {
+  width: 100%;
+}
+.container .input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 0px;
+  font-weight: 500;
+  color: black;
+  font-size: 16px;
+  transition: 0.8s;
+}
+
+.container .btn .fas {
+  color: #aa00ff;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    width: 20rem;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+  }
+}
